@@ -6,7 +6,7 @@ An interactive Power BI dashboard that analyzes e-commerce sales performance —
 
 ![Dashboard Overview](screenshots/01-dashboard-overview.png)
 
-*(Add 2–3 more close-up screenshots below as you take them — e.g. category/payment breakdown, regional trends.)*
+
 
 | | |
 |---|---|
