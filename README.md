@@ -24,17 +24,23 @@ An interactive Power BI dashboard that analyzes e-commerce sales performance —
 ## 🗂️ Data Model
 
 Two related tables:
-Orders - Customer Name, State, Order Date
-Details	- Category, Sub-Category, Payment Mode, Quantity, Amount, Profit, Avg Order Value
+
+| Table | Fields |
+|---|---|
+| **Orders** | Customer Name, State, Order Date |
+| **Details** | Category, Sub-Category, Payment Mode, Quantity, Amount, Profit, Avg Order Value |
 
 ## 🧮 Core DAX Measures
 
-dax
+> Fill these in with your exact formulas before publishing — this is a starting template based on the dashboard's structure.
+
+```dax
 Total Sales     = SUM(Details[Amount])
 Total Profit    = SUM(Details[Profit])
 Total Quantity  = SUM(Details[Quantity])
 Avg Order Value = AVERAGE(Details[Avg_order_value])
 Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+```
 
 ## 🛠️ Tools & Skills Used
 
@@ -45,6 +51,7 @@ Profit Margin % = DIVIDE([Total Profit], [Total Sales])
 
 ## 📁 Repository Structure
 
+```
 ecommerce-sales-dashboard-powerbi/
 ├── README.md
 ├── Ecommerce_Sales_Dashboard.pbix
@@ -52,7 +59,7 @@ ecommerce-sales-dashboard-powerbi/
     ├── 01-dashboard-overview.png
     ├── 02-category-payment-breakdown.png
     └── 03-regional-monthly-trends.png
-
+```
 
 ## 🚀 How to Explore
 
@@ -60,6 +67,6 @@ ecommerce-sales-dashboard-powerbi/
 2. Open `Ecommerce_Sales_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
 3. Interact with the State and Quarter slicers to filter the data, and hover over any visual for details
 
+---
 
-
-Dewansh Garg - [Portfolio](https://dewansh32.github.io/My-Portfolio/) , [LinkedIn](https://linkedin.com/in/dewanshgarg) , [GitHub](https://github.com/Dewansh32)
+**Dewansh Garg** · [Portfolio](https://dewansh32.github.io/My-Portfolio/) · [LinkedIn](https://linkedin.com/in/dewanshgarg) · [GitHub](https://github.com/Dewansh32)
